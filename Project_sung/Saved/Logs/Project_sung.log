@@ -1120,3 +1120,859 @@ Make sure 'Glacier_C' has been compiled for  Find Another Glacier
 [2022.05.15-15.57.17:424][ 21]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Glacier.Glacier
 [2022.05.15-15.57.17:662][ 39]BlueprintLog: New page: Compile Glacier
 [2022.05.15-15.57.17:722][ 39]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2022.05.15-15.58.01:240][345]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.15-15.58.01:250][345]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.15-15.58.01:250][345]PIE: New page: PIE session: TestMap (2022. 5. 16. 오전 9:58:01)
+[2022.05.15-15.58.01:250][345]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-15.58.01:253][345]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002684s)
+[2022.05.15-15.58.01:253][345]LogAIModule: Creating AISystem for world TestMap
+[2022.05.15-15.58.01:254][345]LogPlayLevel: PIE: World Init took: (0.000951s)
+[2022.05.15-15.58.01:254][345]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.003750s)
+[2022.05.15-15.58.01:280][345]LogUObjectHash: Compacting FUObjectHashTables data took   3.52ms
+[2022.05.15-15.58.01:283][345]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.05.15-15.58.01:283][345]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.15-15.58.01:283][345]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.15-15.58.01:283][345]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.15-15.58.01:283][345]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.15-15.58.01:283][345]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.15-15.58.01:283][345]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.15-15.58.01:283][345]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.15-15.58.01:283][345]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.15-15.58.01:283][345]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.15-15.58.01:283][345]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.15-15.58.01:283][345]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.15-15.58.01:283][345]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.15-15.58.01:303][345]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.15-15.58.01:303][345]LogAudioMixer: Display: 1: FrontRight
+[2022.05.15-15.58.01:340][345]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.05.15-15.58.01:340][345]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.15-15.58.01:340][345]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.15-15.58.01:340][345]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.15-15.58.01:340][345]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.15-15.58.01:340][345]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.15-15.58.01:340][345]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.15-15.58.01:342][345]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.15-15.58.01:342][345]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.15-15.58.01:342][345]LogInit: FAudioDevice initialized.
+[2022.05.15-15.58.01:342][345]LogAudio: Display: Audio Device (ID: 3) registered with world 'TestMap'.
+[2022.05.15-15.58.01:373][345]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-15.58.01:373][345]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.15-15.58.01:375][345]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.05.16-00.58.01
+[2022.05.15-15.58.01:375][345]LogWorld: Bringing up level for play took: 0.000726
+[2022.05.15-15.58.01:375][345]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2022.05.15-15.58.01:382][345]PIE: Server logged in
+[2022.05.15-15.58.01:384][345]PIE: Play in editor total start time 0.139 seconds.
+[2022.05.15-15.58.01:839][374]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-15.58.03:071][481]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-15.58.04:162][574]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-15.58.04:163][574]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-15.58.04:163][574]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.15-15.58.04:171][574]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.15-15.58.04:172][574]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-15.58.04:183][574]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.15-15.58.04:205][574]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-15.58.04:229][574]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-15.58.04:230][574]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-15.58.04:237][574]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2022.05.15-15.58.04:274][575]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2022.05.15-15.58.10:003][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Glacier" FILE="G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset" SILENT=true
+[2022.05.15-15.58.10:046][ 24]LogSavePackage: Moving 'G:/UnrealEngine/OurEarth/Project_sung/Saved/Glacier6601BA744124283C7FB991B6F1440B8D.tmp' to 'G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset'
+[2022.05.15-15.58.10:061][ 24]AssetCheck: New page: Asset Save: Glacier
+[2022.05.15-15.58.10:061][ 24]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Glacier.Glacier
+[2022.05.15-15.58.10:361][ 46]BlueprintLog: New page: Compile Glacier
+[2022.05.15-15.58.10:413][ 46]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2022.05.15-15.58.11:361][113]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.15-15.58.11:370][113]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.15-15.58.11:370][113]PIE: New page: PIE session: TestMap (2022. 5. 16. 오전 9:58:11)
+[2022.05.15-15.58.11:370][113]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-15.58.11:373][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002800s)
+[2022.05.15-15.58.11:374][113]LogAIModule: Creating AISystem for world TestMap
+[2022.05.15-15.58.11:374][113]LogPlayLevel: PIE: World Init took: (0.001069s)
+[2022.05.15-15.58.11:374][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.004005s)
+[2022.05.15-15.58.11:401][113]LogUObjectHash: Compacting FUObjectHashTables data took   3.82ms
+[2022.05.15-15.58.11:402][113]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.05.15-15.58.11:402][113]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.15-15.58.11:402][113]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.15-15.58.11:402][113]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.15-15.58.11:402][113]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.15-15.58.11:402][113]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.15-15.58.11:402][113]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.15-15.58.11:402][113]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.15-15.58.11:402][113]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.15-15.58.11:403][113]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.15-15.58.11:403][113]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.15-15.58.11:403][113]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.15-15.58.11:403][113]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.15-15.58.11:422][113]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.15-15.58.11:422][113]LogAudioMixer: Display: 1: FrontRight
+[2022.05.15-15.58.11:458][113]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.05.15-15.58.11:458][113]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.15-15.58.11:458][113]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.15-15.58.11:458][113]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.15-15.58.11:458][113]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.15-15.58.11:458][113]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.15-15.58.11:458][113]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.15-15.58.11:460][113]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.15-15.58.11:460][113]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.15-15.58.11:460][113]LogInit: FAudioDevice initialized.
+[2022.05.15-15.58.11:460][113]LogAudio: Display: Audio Device (ID: 4) registered with world 'TestMap'.
+[2022.05.15-15.58.11:487][113]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-15.58.11:487][113]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.15-15.58.11:489][113]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.05.16-00.58.11
+[2022.05.15-15.58.11:489][113]LogWorld: Bringing up level for play took: 0.000805
+[2022.05.15-15.58.11:489][113]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2022.05.15-15.58.11:496][113]PIE: Server logged in
+[2022.05.15-15.58.11:499][113]PIE: Play in editor total start time 0.134 seconds.
+[2022.05.15-15.58.12:046][147]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-15.58.13:569][277]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-15.58.14:245][337]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-15.58.15:622][450]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-15.58.15:623][450]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-15.58.15:623][450]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.15-15.58.15:635][450]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.15-15.58.15:636][450]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-15.58.15:642][450]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.15-15.58.15:664][450]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-15.58.15:687][450]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.15-15.58.15:687][450]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-15.58.15:688][450]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-15.58.15:695][450]LogUObjectHash: Compacting FUObjectHashTables data took   2.64ms
+[2022.05.15-15.58.15:742][451]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2022.05.15-15.59.17:258][599]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Glacier" FILE="G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset" SILENT=true
+[2022.05.15-15.59.17:302][599]LogSavePackage: Moving 'G:/UnrealEngine/OurEarth/Project_sung/Saved/Glacier3048B8DE490FBB70B16195ADA0C5225C.tmp' to 'G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset'
+[2022.05.15-15.59.17:325][599]AssetCheck: New page: Asset Save: Glacier
+[2022.05.15-15.59.17:325][599]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Glacier.Glacier
+[2022.05.15-15.59.17:489][613]BlueprintLog: New page: Compile Glacier
+[2022.05.15-15.59.17:543][613]LogUObjectHash: Compacting FUObjectHashTables data took   3.67ms
+[2022.05.15-15.59.30:184][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Glacier" FILE="G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset" SILENT=true
+[2022.05.15-15.59.30:230][630]LogSavePackage: Moving 'G:/UnrealEngine/OurEarth/Project_sung/Saved/Glacier4E1EA0C544B3AEADA30A55820E4BEAF8.tmp' to 'G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset'
+[2022.05.15-15.59.30:248][630]AssetCheck: New page: Asset Save: Glacier
+[2022.05.15-15.59.30:248][630]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Glacier.Glacier
+[2022.05.15-15.59.30:514][652]BlueprintLog: New page: Compile Glacier
+[2022.05.15-15.59.30:569][652]LogUObjectHash: Compacting FUObjectHashTables data took   3.56ms
+[2022.05.15-15.59.38:290][246]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Glacier" FILE="G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset" SILENT=true
+[2022.05.15-15.59.38:335][246]LogSavePackage: Moving 'G:/UnrealEngine/OurEarth/Project_sung/Saved/Glacier9BA87AA94A1B2770F42B7DA6BB649DB7.tmp' to 'G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset'
+[2022.05.15-15.59.38:358][246]AssetCheck: New page: Asset Save: Glacier
+[2022.05.15-15.59.38:358][246]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Glacier.Glacier
+[2022.05.15-15.59.38:595][264]BlueprintLog: New page: Compile Glacier
+[2022.05.15-15.59.38:650][264]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2022.05.15-15.59.39:570][329]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.15-15.59.39:579][329]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.15-15.59.39:579][329]PIE: New page: PIE session: TestMap (2022. 5. 16. 오전 9:59:39)
+[2022.05.15-15.59.39:579][329]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-15.59.39:582][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002581s)
+[2022.05.15-15.59.39:583][329]LogAIModule: Creating AISystem for world TestMap
+[2022.05.15-15.59.39:583][329]LogPlayLevel: PIE: World Init took: (0.000998s)
+[2022.05.15-15.59.39:583][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.003693s)
+[2022.05.15-15.59.39:609][329]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2022.05.15-15.59.39:610][329]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.05.15-15.59.39:610][329]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.15-15.59.39:610][329]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.15-15.59.39:610][329]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.15-15.59.39:610][329]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.15-15.59.39:610][329]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.15-15.59.39:610][329]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.15-15.59.39:610][329]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.15-15.59.39:610][329]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.15-15.59.39:610][329]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.15-15.59.39:611][329]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.15-15.59.39:611][329]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.15-15.59.39:611][329]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.15-15.59.39:631][329]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.15-15.59.39:631][329]LogAudioMixer: Display: 1: FrontRight
+[2022.05.15-15.59.39:668][329]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.05.15-15.59.39:669][329]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.15-15.59.39:669][329]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.15-15.59.39:669][329]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.15-15.59.39:669][329]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.15-15.59.39:669][329]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.15-15.59.39:669][329]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.15-15.59.39:670][329]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.15-15.59.39:670][329]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.15-15.59.39:670][329]LogInit: FAudioDevice initialized.
+[2022.05.15-15.59.39:670][329]LogAudio: Display: Audio Device (ID: 5) registered with world 'TestMap'.
+[2022.05.15-15.59.39:703][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-15.59.39:703][329]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.15-15.59.39:704][329]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.05.16-00.59.39
+[2022.05.15-15.59.39:704][329]LogWorld: Bringing up level for play took: 0.000804
+[2022.05.15-15.59.39:704][329]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2022.05.15-15.59.39:712][329]PIE: Server logged in
+[2022.05.15-15.59.39:715][329]PIE: Play in editor total start time 0.141 seconds.
+[2022.05.15-15.59.40:204][361]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-15.59.41:631][482]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-15.59.41:941][506]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-15.59.42:201][528]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-15.59.42:474][549]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-15.59.42:765][572]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-15.59.42:986][591]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-15.59.43:433][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-15.59.43:433][622]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-15.59.43:434][622]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.15-15.59.43:442][622]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.15-15.59.43:442][622]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-15.59.43:454][622]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.15-15.59.43:474][622]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-15.59.43:497][622]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-15.59.43:498][622]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-15.59.43:505][622]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2022.05.15-15.59.43:543][623]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2022.05.15-16.00.01:356][ 95]LogEditorTransaction: Undo Create Pin Link
+[2022.05.15-16.00.01:590][103]LogEditorTransaction: Undo Delete current selection
+[2022.05.15-16.00.12:956][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Glacier" FILE="G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset" SILENT=true
+[2022.05.15-16.00.12:998][ 38]LogSavePackage: Moving 'G:/UnrealEngine/OurEarth/Project_sung/Saved/Glacier8C8D48684F9ADB69D389BB9FF4742579.tmp' to 'G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset'
+[2022.05.15-16.00.13:013][ 38]AssetCheck: New page: Asset Save: Glacier
+[2022.05.15-16.00.13:013][ 38]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Glacier.Glacier
+[2022.05.15-16.00.13:134][ 49]BlueprintLog: New page: Compile Glacier
+[2022.05.15-16.00.13:189][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   3.99ms
+[2022.05.15-16.00.13:960][103]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.15-16.00.13:969][103]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.15-16.00.13:969][103]PIE: New page: PIE session: TestMap (2022. 5. 16. 오전 10:00:13)
+[2022.05.15-16.00.13:969][103]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-16.00.13:972][103]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002720s)
+[2022.05.15-16.00.13:972][103]LogAIModule: Creating AISystem for world TestMap
+[2022.05.15-16.00.13:973][103]LogPlayLevel: PIE: World Init took: (0.000942s)
+[2022.05.15-16.00.13:973][103]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.003792s)
+[2022.05.15-16.00.13:998][103]LogUObjectHash: Compacting FUObjectHashTables data took   3.61ms
+[2022.05.15-16.00.13:999][103]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2022.05.15-16.00.13:999][103]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.15-16.00.13:999][103]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.15-16.00.13:999][103]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.15-16.00.13:999][103]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.15-16.00.13:999][103]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.15-16.00.13:999][103]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.15-16.00.13:999][103]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.15-16.00.13:999][103]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.15-16.00.13:999][103]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.15-16.00.14:000][103]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.15-16.00.14:000][103]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.15-16.00.14:000][103]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.15-16.00.14:019][103]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.15-16.00.14:019][103]LogAudioMixer: Display: 1: FrontRight
+[2022.05.15-16.00.14:055][103]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.05.15-16.00.14:055][103]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.15-16.00.14:055][103]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.15-16.00.14:055][103]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.15-16.00.14:056][103]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.15-16.00.14:056][103]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.15-16.00.14:056][103]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.15-16.00.14:057][103]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.15-16.00.14:057][103]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.15-16.00.14:057][103]LogInit: FAudioDevice initialized.
+[2022.05.15-16.00.14:057][103]LogAudio: Display: Audio Device (ID: 6) registered with world 'TestMap'.
+[2022.05.15-16.00.14:084][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-16.00.14:084][103]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.15-16.00.14:085][103]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.05.16-01.00.14
+[2022.05.15-16.00.14:085][103]LogWorld: Bringing up level for play took: 0.000821
+[2022.05.15-16.00.14:086][103]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2022.05.15-16.00.14:092][103]PIE: Server logged in
+[2022.05.15-16.00.14:096][103]PIE: Play in editor total start time 0.132 seconds.
+[2022.05.15-16.00.14:563][136]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.00.16:572][324]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-16.00.16:572][324]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-16.00.16:573][324]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.15-16.00.16:584][324]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.15-16.00.16:584][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-16.00.16:593][324]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.15-16.00.16:612][324]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-16.00.16:634][324]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.15-16.00.16:634][324]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-16.00.16:636][324]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-16.00.16:643][324]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2022.05.15-16.00.16:682][325]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2022.05.15-16.00.22:916][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Glacier" FILE="G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset" SILENT=true
+[2022.05.15-16.00.22:961][707]LogSavePackage: Moving 'G:/UnrealEngine/OurEarth/Project_sung/Saved/GlacierE6BC7A4B4BED018F59E452A7A2A289D7.tmp' to 'G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset'
+[2022.05.15-16.00.22:982][707]AssetCheck: New page: Asset Save: Glacier
+[2022.05.15-16.00.22:982][707]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Glacier.Glacier
+[2022.05.15-16.00.23:142][720]BlueprintLog: New page: Compile Glacier
+[2022.05.15-16.00.23:195][720]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2022.05.15-16.00.46:699][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Glacier" FILE="G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset" SILENT=true
+[2022.05.15-16.00.46:742][691]LogSavePackage: Moving 'G:/UnrealEngine/OurEarth/Project_sung/Saved/Glacier2E89E8EA46CB0822DDF837B78A99DDD0.tmp' to 'G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset'
+[2022.05.15-16.00.46:755][691]AssetCheck: New page: Asset Save: Glacier
+[2022.05.15-16.00.46:755][691]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Glacier.Glacier
+[2022.05.15-16.01.09:072][856]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Glacier" FILE="G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset" SILENT=true
+[2022.05.15-16.01.09:113][856]LogSavePackage: Moving 'G:/UnrealEngine/OurEarth/Project_sung/Saved/Glacier7231CD8147D3113A85D916A3AEA37B51.tmp' to 'G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset'
+[2022.05.15-16.01.09:129][856]AssetCheck: New page: Asset Save: Glacier
+[2022.05.15-16.01.09:129][856]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Glacier.Glacier
+[2022.05.15-16.01.43:423][881]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.15-16.01.43:433][881]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.15-16.01.43:433][881]PIE: New page: PIE session: TestMap (2022. 5. 16. 오전 10:01:43)
+[2022.05.15-16.01.43:433][881]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-16.01.43:436][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002782s)
+[2022.05.15-16.01.43:437][881]LogAIModule: Creating AISystem for world TestMap
+[2022.05.15-16.01.43:437][881]LogPlayLevel: PIE: World Init took: (0.001053s)
+[2022.05.15-16.01.43:437][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.003965s)
+[2022.05.15-16.01.43:463][881]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2022.05.15-16.01.43:466][881]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2022.05.15-16.01.43:466][881]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.15-16.01.43:466][881]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.15-16.01.43:466][881]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.15-16.01.43:466][881]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.15-16.01.43:466][881]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.15-16.01.43:466][881]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.15-16.01.43:466][881]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.15-16.01.43:466][881]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.15-16.01.43:467][881]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.15-16.01.43:467][881]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.15-16.01.43:467][881]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.15-16.01.43:467][881]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.15-16.01.43:486][881]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.15-16.01.43:486][881]LogAudioMixer: Display: 1: FrontRight
+[2022.05.15-16.01.43:524][881]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.05.15-16.01.43:524][881]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.15-16.01.43:524][881]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.15-16.01.43:524][881]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.15-16.01.43:525][881]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.15-16.01.43:525][881]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.15-16.01.43:525][881]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.15-16.01.43:526][881]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.15-16.01.43:526][881]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.15-16.01.43:526][881]LogInit: FAudioDevice initialized.
+[2022.05.15-16.01.43:526][881]LogAudio: Display: Audio Device (ID: 7) registered with world 'TestMap'.
+[2022.05.15-16.01.43:557][881]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-16.01.43:558][881]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.15-16.01.43:559][881]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.05.16-01.01.43
+[2022.05.15-16.01.43:559][881]LogWorld: Bringing up level for play took: 0.000911
+[2022.05.15-16.01.43:559][881]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2022.05.15-16.01.43:567][881]PIE: Server logged in
+[2022.05.15-16.01.43:570][881]PIE: Play in editor total start time 0.143 seconds.
+[2022.05.15-16.01.44:495][943]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.15-16.01.44:509][943]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-16.01.44:509][943]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.15-16.01.44:509][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-16.01.44:520][943]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.15-16.01.44:541][943]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-16.01.44:562][943]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.15-16.01.44:562][943]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-16.01.44:564][943]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-16.01.44:572][943]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
+[2022.05.15-16.01.44:610][944]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2022.05.15-16.01.47:747][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Glacier" FILE="G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset" SILENT=true
+[2022.05.15-16.01.47:790][181]LogSavePackage: Moving 'G:/UnrealEngine/OurEarth/Project_sung/Saved/GlacierB43361874A9AC7E68F300495EDE8E4C8.tmp' to 'G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset'
+[2022.05.15-16.01.47:817][181]AssetCheck: New page: Asset Save: Glacier
+[2022.05.15-16.01.47:817][181]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Glacier.Glacier
+[2022.05.15-16.01.48:047][198]BlueprintLog: New page: Compile Glacier
+[2022.05.15-16.01.48:098][198]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2022.05.15-16.01.54:624][689]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.15-16.01.54:633][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.15-16.01.54:633][689]PIE: New page: PIE session: TestMap (2022. 5. 16. 오전 10:01:54)
+[2022.05.15-16.01.54:633][689]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-16.01.54:636][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002563s)
+[2022.05.15-16.01.54:636][689]LogAIModule: Creating AISystem for world TestMap
+[2022.05.15-16.01.54:637][689]LogPlayLevel: PIE: World Init took: (0.000965s)
+[2022.05.15-16.01.54:637][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.003648s)
+[2022.05.15-16.01.54:663][689]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2022.05.15-16.01.54:665][689]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2022.05.15-16.01.54:665][689]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.15-16.01.54:665][689]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.15-16.01.54:665][689]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.15-16.01.54:665][689]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.15-16.01.54:666][689]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.15-16.01.54:666][689]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.15-16.01.54:666][689]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.15-16.01.54:666][689]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.15-16.01.54:666][689]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.15-16.01.54:666][689]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.15-16.01.54:666][689]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.15-16.01.54:666][689]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.15-16.01.54:685][689]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.15-16.01.54:685][689]LogAudioMixer: Display: 1: FrontRight
+[2022.05.15-16.01.54:722][689]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.05.15-16.01.54:723][689]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.15-16.01.54:723][689]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.15-16.01.54:723][689]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.15-16.01.54:723][689]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.15-16.01.54:723][689]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.15-16.01.54:723][689]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.15-16.01.54:724][689]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.15-16.01.54:724][689]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.15-16.01.54:724][689]LogInit: FAudioDevice initialized.
+[2022.05.15-16.01.54:724][689]LogAudio: Display: Audio Device (ID: 8) registered with world 'TestMap'.
+[2022.05.15-16.01.54:754][689]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-16.01.54:754][689]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.15-16.01.54:755][689]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.05.16-01.01.54
+[2022.05.15-16.01.54:755][689]LogWorld: Bringing up level for play took: 0.000827
+[2022.05.15-16.01.54:755][689]LogOnline: OSS: Creating online subsystem instance for: :Context_18
+[2022.05.15-16.01.54:763][689]PIE: Server logged in
+[2022.05.15-16.01.54:766][689]PIE: Play in editor total start time 0.138 seconds.
+[2022.05.15-16.01.55:283][721]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.01.57:638][926]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.01.57:874][947]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.01.58:109][968]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.01.58:295][984]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.01.58:490][  1]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.01.58:665][ 16]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.01.59:082][ 49]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-16.01.59:082][ 49]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-16.01.59:083][ 49]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.15-16.01.59:091][ 49]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.15-16.01.59:091][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-16.01.59:098][ 49]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.15-16.01.59:117][ 49]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-16.01.59:141][ 49]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.15-16.01.59:141][ 49]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-16.01.59:142][ 49]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-16.01.59:149][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2022.05.15-16.01.59:184][ 50]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2022.05.15-16.02.03:182][358]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Glacier" FILE="G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset" SILENT=true
+[2022.05.15-16.02.03:224][358]LogSavePackage: Moving 'G:/UnrealEngine/OurEarth/Project_sung/Saved/Glacier6662633A47963067FDFA8B96624FA16B.tmp' to 'G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset'
+[2022.05.15-16.02.03:244][358]AssetCheck: New page: Asset Save: Glacier
+[2022.05.15-16.02.03:244][358]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Glacier.Glacier
+[2022.05.15-16.02.03:445][373]BlueprintLog: New page: Compile Glacier
+[2022.05.15-16.02.03:496][373]LogUObjectHash: Compacting FUObjectHashTables data took   2.89ms
+[2022.05.15-16.02.04:051][408]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.15-16.02.04:060][408]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.15-16.02.04:060][408]PIE: New page: PIE session: TestMap (2022. 5. 16. 오전 10:02:04)
+[2022.05.15-16.02.04:061][408]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-16.02.04:063][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002505s)
+[2022.05.15-16.02.04:064][408]LogAIModule: Creating AISystem for world TestMap
+[2022.05.15-16.02.04:064][408]LogPlayLevel: PIE: World Init took: (0.000986s)
+[2022.05.15-16.02.04:064][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.003616s)
+[2022.05.15-16.02.04:091][408]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2022.05.15-16.02.04:091][408]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2022.05.15-16.02.04:092][408]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.15-16.02.04:092][408]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.15-16.02.04:092][408]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.15-16.02.04:092][408]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.15-16.02.04:092][408]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.15-16.02.04:092][408]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.15-16.02.04:092][408]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.15-16.02.04:092][408]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.15-16.02.04:092][408]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.15-16.02.04:092][408]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.15-16.02.04:092][408]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.15-16.02.04:092][408]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.15-16.02.04:111][408]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.15-16.02.04:112][408]LogAudioMixer: Display: 1: FrontRight
+[2022.05.15-16.02.04:147][408]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.05.15-16.02.04:147][408]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.15-16.02.04:148][408]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.15-16.02.04:148][408]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.15-16.02.04:148][408]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.15-16.02.04:148][408]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.15-16.02.04:148][408]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.15-16.02.04:149][408]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.15-16.02.04:149][408]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.15-16.02.04:149][408]LogInit: FAudioDevice initialized.
+[2022.05.15-16.02.04:149][408]LogAudio: Display: Audio Device (ID: 9) registered with world 'TestMap'.
+[2022.05.15-16.02.04:179][408]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-16.02.04:179][408]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.15-16.02.04:181][408]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.05.16-01.02.04
+[2022.05.15-16.02.04:181][408]LogWorld: Bringing up level for play took: 0.000910
+[2022.05.15-16.02.04:181][408]LogOnline: OSS: Creating online subsystem instance for: :Context_19
+[2022.05.15-16.02.04:188][408]PIE: Server logged in
+[2022.05.15-16.02.04:191][408]PIE: Play in editor total start time 0.136 seconds.
+[2022.05.15-16.02.04:653][439]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.02.06:315][585]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.02.07:872][721]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-16.02.07:873][721]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-16.02.07:873][721]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.15-16.02.07:881][721]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.15-16.02.07:882][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-16.02.07:890][721]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.15-16.02.07:909][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-16.02.07:931][721]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.15-16.02.07:932][721]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-16.02.07:933][721]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-16.02.07:940][721]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2022.05.15-16.02.07:975][722]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2022.05.15-16.02.23:744][ 35]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Glacier" FILE="G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset" SILENT=true
+[2022.05.15-16.02.23:787][ 35]LogSavePackage: Moving 'G:/UnrealEngine/OurEarth/Project_sung/Saved/GlacierD44D18604DA0A8CBA21EB394358C849E.tmp' to 'G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset'
+[2022.05.15-16.02.23:810][ 35]AssetCheck: New page: Asset Save: Glacier
+[2022.05.15-16.02.23:810][ 35]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Glacier.Glacier
+[2022.05.15-16.02.24:049][ 54]BlueprintLog: New page: Compile Glacier
+[2022.05.15-16.02.24:101][ 54]LogUObjectHash: Compacting FUObjectHashTables data took   3.15ms
+[2022.05.15-16.02.28:858][423]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Glacier" FILE="G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset" SILENT=true
+[2022.05.15-16.02.28:901][423]LogSavePackage: Moving 'G:/UnrealEngine/OurEarth/Project_sung/Saved/Glacier8A1FD6AA443BFFC4D43FB09A153ACE01.tmp' to 'G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset'
+[2022.05.15-16.02.28:920][423]AssetCheck: New page: Asset Save: Glacier
+[2022.05.15-16.02.28:920][423]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Glacier.Glacier
+[2022.05.15-16.02.29:183][442]BlueprintLog: New page: Compile Glacier
+[2022.05.15-16.02.29:238][442]LogUObjectHash: Compacting FUObjectHashTables data took   3.69ms
+[2022.05.15-16.02.30:307][517]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.15-16.02.30:315][517]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.15-16.02.30:316][517]PIE: New page: PIE session: TestMap (2022. 5. 16. 오전 10:02:30)
+[2022.05.15-16.02.30:316][517]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-16.02.30:318][517]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002565s)
+[2022.05.15-16.02.30:319][517]LogAIModule: Creating AISystem for world TestMap
+[2022.05.15-16.02.30:319][517]LogPlayLevel: PIE: World Init took: (0.000990s)
+[2022.05.15-16.02.30:319][517]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.003668s)
+[2022.05.15-16.02.30:345][517]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2022.05.15-16.02.30:346][517]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2022.05.15-16.02.30:346][517]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.15-16.02.30:346][517]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.15-16.02.30:346][517]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.15-16.02.30:346][517]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.15-16.02.30:346][517]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.15-16.02.30:346][517]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.15-16.02.30:346][517]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.15-16.02.30:346][517]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.15-16.02.30:347][517]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.15-16.02.30:347][517]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.15-16.02.30:347][517]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.15-16.02.30:347][517]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.15-16.02.30:366][517]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.15-16.02.30:366][517]LogAudioMixer: Display: 1: FrontRight
+[2022.05.15-16.02.30:403][517]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.05.15-16.02.30:403][517]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.15-16.02.30:403][517]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.15-16.02.30:403][517]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.15-16.02.30:403][517]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.15-16.02.30:404][517]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.15-16.02.30:404][517]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.15-16.02.30:405][517]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.15-16.02.30:405][517]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.15-16.02.30:405][517]LogInit: FAudioDevice initialized.
+[2022.05.15-16.02.30:405][517]LogAudio: Display: Audio Device (ID: 10) registered with world 'TestMap'.
+[2022.05.15-16.02.30:433][517]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-16.02.30:434][517]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.15-16.02.30:435][517]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.05.16-01.02.30
+[2022.05.15-16.02.30:436][517]LogWorld: Bringing up level for play took: 0.001172
+[2022.05.15-16.02.30:436][517]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2022.05.15-16.02.30:443][517]PIE: Server logged in
+[2022.05.15-16.02.30:446][517]PIE: Play in editor total start time 0.135 seconds.
+[2022.05.15-16.02.30:858][543]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.02.32:003][641]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.02.33:662][783]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-16.02.33:662][783]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-16.02.33:663][783]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.15-16.02.33:671][783]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.15-16.02.33:672][783]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-16.02.33:682][783]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.15-16.02.33:703][783]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-16.02.33:725][783]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.15-16.02.33:725][783]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-16.02.33:727][783]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-16.02.33:736][783]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2022.05.15-16.02.33:770][784]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2022.05.15-16.03.00:328][105]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Glacier" FILE="G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset" SILENT=true
+[2022.05.15-16.03.00:372][105]LogSavePackage: Moving 'G:/UnrealEngine/OurEarth/Project_sung/Saved/GlacierB462AD3B44FAF869E7E449AC28BD3AD1.tmp' to 'G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset'
+[2022.05.15-16.03.00:392][105]AssetCheck: New page: Asset Save: Glacier
+[2022.05.15-16.03.00:392][105]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Glacier.Glacier
+[2022.05.15-16.03.00:737][132]BlueprintLog: New page: Compile Glacier
+[2022.05.15-16.03.00:791][132]LogUObjectHash: Compacting FUObjectHashTables data took   2.97ms
+[2022.05.15-16.03.02:462][266]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.15-16.03.02:471][266]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.15-16.03.02:472][266]PIE: New page: PIE session: TestMap (2022. 5. 16. 오전 10:03:02)
+[2022.05.15-16.03.02:472][266]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-16.03.02:474][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002505s)
+[2022.05.15-16.03.02:475][266]LogAIModule: Creating AISystem for world TestMap
+[2022.05.15-16.03.02:475][266]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2022.05.15-16.03.02:475][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.003565s)
+[2022.05.15-16.03.02:502][266]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2022.05.15-16.03.02:503][266]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2022.05.15-16.03.02:503][266]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.15-16.03.02:503][266]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.15-16.03.02:503][266]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.15-16.03.02:504][266]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.15-16.03.02:504][266]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.15-16.03.02:504][266]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.15-16.03.02:504][266]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.15-16.03.02:504][266]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.15-16.03.02:504][266]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.15-16.03.02:504][266]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.15-16.03.02:504][266]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.15-16.03.02:504][266]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.15-16.03.02:522][266]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.15-16.03.02:522][266]LogAudioMixer: Display: 1: FrontRight
+[2022.05.15-16.03.02:557][266]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.05.15-16.03.02:558][266]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.15-16.03.02:558][266]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.15-16.03.02:558][266]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.15-16.03.02:558][266]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.15-16.03.02:558][266]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.15-16.03.02:558][266]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.15-16.03.02:559][266]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.15-16.03.02:559][266]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.15-16.03.02:559][266]LogInit: FAudioDevice initialized.
+[2022.05.15-16.03.02:559][266]LogAudio: Display: Audio Device (ID: 11) registered with world 'TestMap'.
+[2022.05.15-16.03.02:590][266]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-16.03.02:590][266]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.15-16.03.02:591][266]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.05.16-01.03.02
+[2022.05.15-16.03.02:591][266]LogWorld: Bringing up level for play took: 0.000702
+[2022.05.15-16.03.02:591][266]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2022.05.15-16.03.02:598][266]PIE: Server logged in
+[2022.05.15-16.03.02:601][266]PIE: Play in editor total start time 0.134 seconds.
+[2022.05.15-16.03.04:490][422]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.03.05:137][482]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.03.05:666][530]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.03.06:508][605]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.03.06:945][644]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.03.24:805][249]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.03.26:699][401]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.03.32:443][904]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.03.32:734][930]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.03.32:987][953]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.03.38:062][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-16.03.38:062][419]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-16.03.38:063][419]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.15-16.03.38:075][419]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.15-16.03.38:076][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-16.03.38:083][419]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.15-16.03.38:102][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-16.03.38:124][419]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.15-16.03.38:124][419]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-16.03.38:126][419]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-16.03.38:133][419]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2022.05.15-16.03.38:174][420]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2022.05.15-16.03.42:111][724]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Glacier" FILE="G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset" SILENT=true
+[2022.05.15-16.03.42:153][724]LogSavePackage: Moving 'G:/UnrealEngine/OurEarth/Project_sung/Saved/GlacierAAF8D491465B7323B1BB93AB05B7B416.tmp' to 'G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset'
+[2022.05.15-16.03.42:176][724]AssetCheck: New page: Asset Save: Glacier
+[2022.05.15-16.03.42:176][724]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Glacier.Glacier
+[2022.05.15-16.03.42:471][749]BlueprintLog: New page: Compile Glacier
+[2022.05.15-16.03.42:524][749]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
+[2022.05.15-16.03.43:092][791]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.15-16.03.43:101][791]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.15-16.03.43:101][791]PIE: New page: PIE session: TestMap (2022. 5. 16. 오전 10:03:43)
+[2022.05.15-16.03.43:101][791]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-16.03.43:104][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002935s)
+[2022.05.15-16.03.43:105][791]LogAIModule: Creating AISystem for world TestMap
+[2022.05.15-16.03.43:105][791]LogPlayLevel: PIE: World Init took: (0.001096s)
+[2022.05.15-16.03.43:105][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.004193s)
+[2022.05.15-16.03.43:131][791]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2022.05.15-16.03.43:132][791]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2022.05.15-16.03.43:132][791]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.15-16.03.43:132][791]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.15-16.03.43:132][791]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.15-16.03.43:132][791]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.15-16.03.43:132][791]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.15-16.03.43:132][791]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.15-16.03.43:132][791]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.15-16.03.43:132][791]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.15-16.03.43:133][791]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.15-16.03.43:133][791]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.15-16.03.43:133][791]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.15-16.03.43:133][791]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.15-16.03.43:153][791]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.15-16.03.43:153][791]LogAudioMixer: Display: 1: FrontRight
+[2022.05.15-16.03.43:190][791]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.05.15-16.03.43:190][791]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.15-16.03.43:190][791]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.15-16.03.43:190][791]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.15-16.03.43:191][791]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.15-16.03.43:191][791]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.15-16.03.43:191][791]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.15-16.03.43:192][791]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.15-16.03.43:192][791]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.15-16.03.43:192][791]LogInit: FAudioDevice initialized.
+[2022.05.15-16.03.43:192][791]LogAudio: Display: Audio Device (ID: 12) registered with world 'TestMap'.
+[2022.05.15-16.03.43:224][791]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-16.03.43:224][791]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.15-16.03.43:226][791]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.05.16-01.03.43
+[2022.05.15-16.03.43:226][791]LogWorld: Bringing up level for play took: 0.000969
+[2022.05.15-16.03.43:226][791]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2022.05.15-16.03.43:233][791]PIE: Server logged in
+[2022.05.15-16.03.43:236][791]PIE: Play in editor total start time 0.139 seconds.
+[2022.05.15-16.03.43:749][828]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.03.44:345][880]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.03.45:395][977]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.03.49:102][317]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-16.03.49:102][317]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-16.03.49:103][317]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.15-16.03.49:115][317]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.15-16.03.49:117][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-16.03.49:128][317]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.15-16.03.49:149][317]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-16.03.49:171][317]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.15-16.03.49:171][317]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-16.03.49:173][317]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-16.03.49:180][317]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2022.05.15-16.03.49:219][318]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2022.05.15-16.03.50:229][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Glacier" FILE="G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset" SILENT=true
+[2022.05.15-16.03.50:274][392]LogSavePackage: Moving 'G:/UnrealEngine/OurEarth/Project_sung/Saved/GlacierD469D1DB45DD3E9BDCA10FB72DFCE030.tmp' to 'G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset'
+[2022.05.15-16.03.50:290][392]AssetCheck: New page: Asset Save: Glacier
+[2022.05.15-16.03.50:290][392]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Glacier.Glacier
+[2022.05.15-16.04.15:777][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Glacier" FILE="G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset" SILENT=true
+[2022.05.15-16.04.15:820][592]LogSavePackage: Moving 'G:/UnrealEngine/OurEarth/Project_sung/Saved/Glacier0600038E4CCCC042DD1DC7BE8BC9FCE4.tmp' to 'G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset'
+[2022.05.15-16.04.15:842][592]AssetCheck: New page: Asset Save: Glacier
+[2022.05.15-16.04.15:842][592]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Glacier.Glacier
+[2022.05.15-16.04.16:080][611]BlueprintLog: New page: Compile Glacier
+[2022.05.15-16.04.16:133][611]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2022.05.15-16.04.17:857][748]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.15-16.04.17:866][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.15-16.04.17:866][748]PIE: New page: PIE session: TestMap (2022. 5. 16. 오전 10:04:17)
+[2022.05.15-16.04.17:866][748]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-16.04.17:869][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003198s)
+[2022.05.15-16.04.17:870][748]LogAIModule: Creating AISystem for world TestMap
+[2022.05.15-16.04.17:871][748]LogPlayLevel: PIE: World Init took: (0.001077s)
+[2022.05.15-16.04.17:871][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.004480s)
+[2022.05.15-16.04.17:896][748]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2022.05.15-16.04.17:897][748]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2022.05.15-16.04.17:898][748]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.15-16.04.17:898][748]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.15-16.04.17:898][748]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.15-16.04.17:898][748]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.15-16.04.17:898][748]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.15-16.04.17:898][748]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.15-16.04.17:898][748]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.15-16.04.17:898][748]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.15-16.04.17:898][748]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.15-16.04.17:898][748]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.15-16.04.17:898][748]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.15-16.04.17:898][748]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.15-16.04.17:917][748]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.15-16.04.17:917][748]LogAudioMixer: Display: 1: FrontRight
+[2022.05.15-16.04.17:953][748]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.05.15-16.04.17:953][748]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.15-16.04.17:953][748]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.15-16.04.17:953][748]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.15-16.04.17:954][748]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.15-16.04.17:954][748]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.15-16.04.17:954][748]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.15-16.04.17:955][748]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.15-16.04.17:955][748]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.15-16.04.17:955][748]LogInit: FAudioDevice initialized.
+[2022.05.15-16.04.17:955][748]LogAudio: Display: Audio Device (ID: 13) registered with world 'TestMap'.
+[2022.05.15-16.04.17:983][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-16.04.17:983][748]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.15-16.04.17:984][748]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.05.16-01.04.17
+[2022.05.15-16.04.17:985][748]LogWorld: Bringing up level for play took: 0.000850
+[2022.05.15-16.04.17:985][748]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2022.05.15-16.04.17:991][748]PIE: Server logged in
+[2022.05.15-16.04.17:994][748]PIE: Play in editor total start time 0.132 seconds.
+[2022.05.15-16.04.18:763][800]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.04.19:687][876]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.04.21:078][997]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.04.25:342][350]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-16.04.25:342][350]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-16.04.25:343][350]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.15-16.04.25:356][350]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.15-16.04.25:356][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-16.04.25:367][350]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.15-16.04.25:387][350]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-16.04.25:410][350]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-16.04.25:411][350]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-16.04.25:420][350]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2022.05.15-16.04.25:462][351]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2022.05.15-16.04.30:037][706]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/Glacier" FILE="G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset" SILENT=true
+[2022.05.15-16.04.30:083][706]LogSavePackage: Moving 'G:/UnrealEngine/OurEarth/Project_sung/Saved/Glacier28F4DD3C46247C03E4A1F3855506C4CC.tmp' to 'G:/UnrealEngine/OurEarth/Project_sung/Content/ThirdPersonBP/Blueprints/Glacier.uasset'
+[2022.05.15-16.04.30:104][706]AssetCheck: New page: Asset Save: Glacier
+[2022.05.15-16.04.30:104][706]LogContentValidation: Display: Validating Blueprint /Game/ThirdPersonBP/Blueprints/Glacier.Glacier
+[2022.05.15-16.04.30:290][720]BlueprintLog: New page: Compile Glacier
+[2022.05.15-16.04.30:346][720]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2022.05.15-16.04.31:101][766]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.15-16.04.31:111][766]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.15-16.04.31:111][766]PIE: New page: PIE session: TestMap (2022. 5. 16. 오전 10:04:31)
+[2022.05.15-16.04.31:111][766]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-16.04.31:113][766]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002580s)
+[2022.05.15-16.04.31:114][766]LogAIModule: Creating AISystem for world TestMap
+[2022.05.15-16.04.31:115][766]LogPlayLevel: PIE: World Init took: (0.001064s)
+[2022.05.15-16.04.31:115][766]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.003776s)
+[2022.05.15-16.04.31:141][766]LogUObjectHash: Compacting FUObjectHashTables data took   3.87ms
+[2022.05.15-16.04.31:142][766]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2022.05.15-16.04.31:142][766]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.15-16.04.31:142][766]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.15-16.04.31:142][766]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.15-16.04.31:142][766]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.15-16.04.31:142][766]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.15-16.04.31:142][766]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.15-16.04.31:142][766]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.15-16.04.31:142][766]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.15-16.04.31:142][766]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.15-16.04.31:142][766]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.15-16.04.31:142][766]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.15-16.04.31:142][766]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.15-16.04.31:163][766]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.15-16.04.31:163][766]LogAudioMixer: Display: 1: FrontRight
+[2022.05.15-16.04.31:207][766]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.05.15-16.04.31:207][766]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.15-16.04.31:208][766]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.15-16.04.31:208][766]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.15-16.04.31:208][766]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.15-16.04.31:208][766]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.15-16.04.31:208][766]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.15-16.04.31:209][766]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.15-16.04.31:209][766]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.15-16.04.31:209][766]LogInit: FAudioDevice initialized.
+[2022.05.15-16.04.31:209][766]LogAudio: Display: Audio Device (ID: 14) registered with world 'TestMap'.
+[2022.05.15-16.04.31:243][766]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-16.04.31:243][766]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.15-16.04.31:244][766]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.05.16-01.04.31
+[2022.05.15-16.04.31:245][766]LogWorld: Bringing up level for play took: 0.000834
+[2022.05.15-16.04.31:245][766]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2022.05.15-16.04.31:252][766]PIE: Server logged in
+[2022.05.15-16.04.31:256][766]PIE: Play in editor total start time 0.15 seconds.
+[2022.05.15-16.04.31:880][808]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.04.32:728][876]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.04.35:428][123]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.04.36:066][183]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.04.36:707][239]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.04.37:446][305]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.04.40:858][615]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.04.41:404][663]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.04.44:931][982]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.04.45:520][ 36]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.04.46:942][166]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-16.04.46:942][166]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-16.04.46:943][166]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.15-16.04.46:956][166]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.15-16.04.46:956][166]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-16.04.46:963][166]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.15-16.04.46:984][166]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-16.04.47:007][166]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.05.15-16.04.47:007][166]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-16.04.47:008][166]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-16.04.47:015][166]LogUObjectHash: Compacting FUObjectHashTables data took   2.67ms
+[2022.05.15-16.04.47:053][167]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2022.05.15-16.04.55:440][868]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2022.05.15-16.04.55:448][868]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.05.15-16.04.55:448][868]PIE: New page: PIE session: TestMap (2022. 5. 16. 오전 10:04:55)
+[2022.05.15-16.04.55:448][868]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-16.04.55:450][868]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002530s)
+[2022.05.15-16.04.55:451][868]LogAIModule: Creating AISystem for world TestMap
+[2022.05.15-16.04.55:451][868]LogPlayLevel: PIE: World Init took: (0.000972s)
+[2022.05.15-16.04.55:451][868]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/TestMap.TestMap to /Game/Maps/UEDPIE_0_TestMap.TestMap (0.003613s)
+[2022.05.15-16.04.55:475][868]LogUObjectHash: Compacting FUObjectHashTables data took   2.58ms
+[2022.05.15-16.04.55:478][868]LogAudio: Display: Creating Audio Device:                 Id: 15, Scope: Unique, Realtime: True
+[2022.05.15-16.04.55:478][868]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.05.15-16.04.55:478][868]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.05.15-16.04.55:478][868]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.05.15-16.04.55:478][868]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.05.15-16.04.55:478][868]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2022.05.15-16.04.55:478][868]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2022.05.15-16.04.55:478][868]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2022.05.15-16.04.55:478][868]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.05.15-16.04.55:479][868]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2022.05.15-16.04.55:479][868]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2022.05.15-16.04.55:479][868]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.05.15-16.04.55:479][868]LogAudioMixer: Display: Initializing audio mixer.
+[2022.05.15-16.04.55:498][868]LogAudioMixer: Display: 0: FrontLeft
+[2022.05.15-16.04.55:498][868]LogAudioMixer: Display: 1: FrontRight
+[2022.05.15-16.04.55:538][868]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2022.05.15-16.04.55:538][868]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.05.15-16.04.55:538][868]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.05.15-16.04.55:538][868]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.05.15-16.04.55:538][868]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2022.05.15-16.04.55:538][868]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2022.05.15-16.04.55:539][868]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2022.05.15-16.04.55:540][868]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2022.05.15-16.04.55:540][868]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2022.05.15-16.04.55:540][868]LogInit: FAudioDevice initialized.
+[2022.05.15-16.04.55:540][868]LogAudio: Display: Audio Device (ID: 15) registered with world 'TestMap'.
+[2022.05.15-16.04.55:567][868]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-16.04.55:567][868]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2022.05.15-16.04.55:568][868]LogWorld: Bringing World /Game/Maps/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2022.05.16-01.04.55
+[2022.05.15-16.04.55:568][868]LogWorld: Bringing up level for play took: 0.000850
+[2022.05.15-16.04.55:569][868]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2022.05.15-16.04.55:575][868]PIE: Server logged in
+[2022.05.15-16.04.55:578][868]PIE: Play in editor total start time 0.133 seconds.
+[2022.05.15-16.04.56:383][928]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.05.01:604][374]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.05.02:298][431]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.05.05:869][744]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.05.06:419][792]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.05.09:585][ 75]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.05.09:968][109]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.05.10:220][131]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.05.10:470][152]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.05.10:721][174]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.05.10:939][193]LogBlueprintUserMessages: [ThirdPersonCharacter_C_0] Stop Push!
+[2022.05.15-16.05.11:422][232]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.05.15-16.05.11:422][232]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_TestMap
+[2022.05.15-16.05.11:423][232]LogSlate: Window 'Project_sung Preview [NetMode: Standalone]  (64-bit/Windows) ' being destroyed
+[2022.05.15-16.05.11:435][232]LogWorld: UWorld::CleanupWorld for TestMap, bSessionEnded=true, bCleanupResources=true
+[2022.05.15-16.05.11:435][232]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-16.05.11:444][232]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.05.15-16.05.11:465][232]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.05.15-16.05.11:487][232]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-16.05.11:488][232]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2022.05.15-16.05.11:495][232]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2022.05.15-16.05.11:541][233]LogPlayLevel: Display: Destroying online subsystem :Context_25
