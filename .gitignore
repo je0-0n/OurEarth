@@ -2,6 +2,7 @@
 .vs/
 
 # log 
+Logs/
 *.log
 *.png
 
