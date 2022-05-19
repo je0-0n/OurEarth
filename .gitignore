@@ -3,6 +3,7 @@
 
 # log 
 *.log
+*.png
 
 # Compiled Object files
 *.slo
